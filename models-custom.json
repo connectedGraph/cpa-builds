@@ -5583,7 +5583,7 @@
    "supports_web_search": true,
    "display_name": "Gemini 4 Argon",
    "name": "gemini-4-argon-high",
-   "description": "推理强度可以选 low、medium、high 三档。传 minimal 按 low 算，传 xhigh 或 max 按 high 算；传其它值会直接报错。",
+   "description": "字段 reasoning_effort 可选 low、medium、high；传 minimal 按 low 处理，传 xhigh 或 max 按 high 处理；其他值返回 400 报错。",
    "context_length": 1048576,
    "max_completion_tokens": 65536,
    "thinking": {
@@ -5617,7 +5617,7 @@
    "supports_web_search": true,
    "display_name": "Gemini 4 Carbon",
    "name": "gemini-4-carbon-high",
-   "description": "推理强度可以选 low、medium、high 三档。传 minimal 按 low 算，传 xhigh 或 max 按 high 算；传其它值会直接报错。",
+   "description": "字段 reasoning_effort 可选 low、medium、high；传 minimal 按 low 处理，传 xhigh 或 max 按 high 处理；其他值返回 400 报错。",
    "context_length": 1048576,
    "max_completion_tokens": 65536,
    "thinking": {
@@ -5686,7 +5686,7 @@
    "supports_web_search": true,
    "display_name": "Gemini 4 Neon",
    "name": "gemini-4-neon-xhigh",
-   "description": "推理强度可以选 low、medium、high、xhigh 四档。传 minimal 按 low 算，传 max 按最高档算；传其它值会直接报错。",
+   "description": "字段 reasoning_effort 可选 low、medium、high、xhigh；传 minimal 按 low 处理，传 max 按最高档处理；其他值返回 400 报错。",
    "context_length": 1048576,
    "max_completion_tokens": 65536,
    "thinking": {
@@ -5755,7 +5755,7 @@
    "supports_web_search": true,
    "display_name": "Gemini 3.8 Flash (Tiered)",
    "name": "gemini-3.8-flash-tiered",
-   "description": "推理强度可以选 low、medium、high 三档，分别对应思考预算 1000、4000、不设上限。传 max 或不传都按不设上限算；传其它值会直接报错。",
+   "description": "字段 reasoning_effort 可选 low、medium、high，对应思考预算 1000、4000、不设上限；传 max 或不传都按不设上限；其他值返回 400 报错。",
    "context_length": 1048576,
    "max_completion_tokens": 65536,
    "thinking": {
@@ -5942,7 +5942,7 @@
    "supports_web_search": true,
    "display_name": "Gemini 4 Hydrogen (Tiered)",
    "name": "gemini-4-hydrogen-tiered-high",
-   "description": "推理强度可以选 low、medium、high 三档，分别对应思考预算 1000、4000、不设上限。传 xhigh、max 或不传都按不设上限算；传其它值会直接报错。",
+   "description": "字段 reasoning_effort 可选 low、medium、high，对应思考预算 1000、4000、不设上限；传 xhigh、max 或不传都按不设上限；其他值返回 400 报错。",
    "context_length": 1048576,
    "max_completion_tokens": 65536,
    "thinking": {
