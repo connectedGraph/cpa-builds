@@ -5651,7 +5651,7 @@
    "supports_web_search": true,
    "display_name": "Gemini 4 Hydrogen",
    "name": "gemini-4-hydrogen-xhigh",
-   "description": "Gemini 4 Hydrogen (XHigh)",
+   "description": "字段 reasoning_effort 可选 low、medium、high、xhigh；传 minimal 按 low 处理，传 max 按最高档处理；其他值返回 400 报错。",
    "context_length": 1048576,
    "max_completion_tokens": 65536,
    "thinking": {
